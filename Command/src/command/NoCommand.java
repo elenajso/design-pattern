@@ -1,0 +1,12 @@
+package command;
+
+public class NoCommand implements Command {
+
+	@Override
+	public void execute() {
+		System.out.println("ºó ¹öÆ°ÀÔ´Ï´Ù.");
+	//	throw new NoSuchCommandException(); try catch ½á¾ßµÊ
+
+	}
+
+}
